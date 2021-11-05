@@ -4,6 +4,7 @@ go 1.16
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/stretchr/testify v1.7.0
 	github.com/twitchtv/twirp v8.1.0+incompatible
 	go.mongodb.org/mongo-driver v1.7.3
 	golang.org/x/net v0.0.0-20210813160813-60bc85c4be6d // indirect
