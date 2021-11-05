@@ -11,5 +11,14 @@ format:
 	go fmt ./server/*
 	go fmt ./config/*
 
-# dbinit:
-# 	docker 
+dbinit: dbinit.c
+	
+
+dbinit.c: dbinit.b
+	
+
+dbinit.b: dbinit.a
+	
+
+dbinit.a:
+	
