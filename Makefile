@@ -10,15 +10,3 @@ serve:
 format:
 	go fmt ./server/*
 	go fmt ./config/*
-
-dbinit: dbinit.c
-	
-
-dbinit.c: dbinit.b
-	
-
-dbinit.b: dbinit.a
-	
-
-dbinit.a:
-	
